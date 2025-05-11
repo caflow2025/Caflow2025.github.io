@@ -1,4 +1,4 @@
-const filling = document.getElementById('filling');
+    const filling = document.getElementById('filling');
     const cover = document.getElementById('cover');
     const scent = document.getElementById('scent');
     const type = document.getElementById('type');

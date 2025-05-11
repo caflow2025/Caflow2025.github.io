@@ -21,7 +21,7 @@
                 <button class="mobile-menu-btn" id="mobileMenuBtn">
                     <i class="fas fa-bars"></i>
                 </button>
-                <ul class="nav-links" id="navLinks">
+                <ul class="nav-links" id="navLinks">    
                     <li><a href="#home">Trang chủ</a></li>
                     <li><a href="#story">Câu chuyện</a></li>
                     <li><a href="#products">Sản phẩm</a></li>
@@ -49,7 +49,7 @@
     <section id="story" class="section">
         <div class="container">
             <div class="section-title">
-                <h2>Câu chuyện của chúng tôi</h2>
+                <h2>Từ ý tưởng xanh đến hành động thiết thực vì sức khỏe và hành tinh</h2>
                 <p>Hành trình từ ý tưởng đến sản phẩm vì sức khỏe và môi trường</p>
             </div>
             
@@ -130,7 +130,7 @@
                 <div class="product-image" style="background-image: url('img/premium.png'); height: 200px; background-size: cover; background-position: center;"></div>
                 <div class="product-details">
                     <p><strong>Tên sản phẩm:</strong> CaFLOW Premium</p>
-                    <p><strong>Lõi:</strong> gối hơi</p>
+                    <p><strong>Lõi:</strong> Bã cà phê, hạt lanh</p>
                     <p><strong>Công dụng:</strong> Chườm nóng/lạnh – Hỗ trợ cột sống – Khử mùi</p>
                     <p><strong>Mùi hương:</strong> Tùy chọn</p>
                 </div>
@@ -141,7 +141,7 @@
                 <div class="product-image" style="background-image: url('img/travel.png'); height: 200px; background-size: cover; background-position: center;"></div>
                 <div class="product-details">
                     <p><strong>Tên sản phẩm:</strong> CaFLOW Travel</p>
-                    <p><strong>Lõi:</strong> Bã cà phê, hạt lanh</p>
+                    <p><strong>Lõi:</strong> Gối hơi</p>
                     <p><strong>Mùi hương:</strong> Tuỳ chỉnh theo sở thích</p>
                     <p><strong>Kích thước:</strong> Tùy chọn</p>
                 </div>
@@ -151,61 +151,135 @@
 </section>
     <!-- Guide Section -->
 
-<section id="guide" class="section">
-    <div class="container">
-        <div class="section-title">
-            <h2>CaFGuide – Hướng dẫn sử dụng</h2>
-            <p>Cách sử dụng giữ nhiệt nóng/ lạnh - Tạo vòng đời mới với lõi gối</p>
-        </div>
-
-        <div class="guide-content">
-            <div class="guide-video">
-                <div class="text">
-                                🔸 Cách làm nóng hoặc làm lạnh gối
-                </div>
-                <br>
-                <img src="img/guide.png" alt="1">
-            </div>
-
-            <div class="guide-text">
-                <h3>Video hướng dẫn sử dụng</h3>
-                <ul>
-                    
-                    <li>
-                        <div class="guide-item">
-                            <div class="text">
-                                🔸 Tư thế chườm theo vùng cơ thể (vai, cổ, lưng, bụng)
-                            </div>
-                            <div class="thumb">
-                                <img src="img/1.jpg" alt="Minh họa tư thế chườm">
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="guide-item">
-                            <div class="text">
-                                🔸 Kết hợp với bài tập thở để nâng cao hiệu quả thư giãn
-                            </div>
-                            <div class="thumb">
-                                <img src="img/2.jpg" alt="Minh họa bài tập thở">
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="guide-item">
-                            <div class="text">
-                                🔸 Nuôi cây với lõi gối CaFLOW
-                            </div>
-                            <div class="thumb">
-                                <img src="img/3.jpg" alt="Nuôi cây với lõi gối CaFLOW">
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
+<section id="guide" class="section"> 
+  <div class="container">
+    <div class="section-title">
+      <h2>CaFGuide – Hướng dẫn sử dụng</h2>
+      <p>Cách sử dụng giữ nhiệt nóng/ lạnh - Tạo vòng đời mới với lõi gối</p>
     </div>
+
+    <div class="guide-content">
+      <div class="guide-video">
+        <div class="text">
+          🔸 Cách làm nóng hoặc làm lạnh gối
+        </div>
+        <br>
+        <img src="img/guide.png" alt="1">
+
+        <!-- Nội dung hướng dẫn sử dụng giữ nhiệt -->
+        <style>
+            .heat-guide {
+                background-color: #f5f5f5;
+                padding: 20px;
+                border-radius: 10px;
+                margin-top: 20px;
+            }
+            .heat-guide h4 {
+                margin-bottom: 10px;
+            }
+            .heat-guide p {
+                margin-bottom: 10px;
+            }
+            .heat-guide ul {
+                list-style-type: disc;
+                padding-left: 20px;
+            }
+            .heat-guide li {
+                margin-bottom: 5px;
+            }
+
+            .heat-guide {
+  background-color: #f9f9f9; /* Nền sáng nhẹ */
+  border-left: 5px solid #5a4e3c; /* Viền bên trái màu cà phê */
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 1.6;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.heat-guide h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #5a4e3c; /* Màu chủ đạo nâu cà phê */
+  font-weight: 600;
+}
+
+.heat-guide ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.heat-guide ul li {
+  margin-bottom: 6px;
+}
+
+
+        </style>
+        <div class="heat-guide">
+          <h4>HƯỚNG DẪN SỬ DỤNG GIỮ NHIỆT</h4>
+          <p><strong>Giữ Ấm:</strong></p>
+          <ul>
+            <li>Cho gối vào lò vi sóng ở 600W trong 1–2 phút.</li>
+            <li>Không hâm quá 2 phút để bảo vệ lõi gối.</li>
+            <li>Kiểm tra nhiệt độ trước khi dùng.</li>
+          </ul>
+
+          <p><strong>Làm Lạnh:</strong></p>
+          <ul>
+            <li>Đặt gối vào túi kín, để trong ngăn đá 30–60 phút.</li>
+            <li>Dùng để giảm đau, sưng hoặc làm mát thư giãn.</li>
+          </ul>
+
+          <p><strong>Bảo Quản:</strong></p>
+          <ul>
+            <li>Phơi lõi gối định kỳ 2 tuần/lần ở nơi khô thoáng, tránh ẩm mốc.</li>
+            <li>Không giặt lõi gối.</li>
+            <li>Tránh dùng khi lõi còn ẩm hoặc quá nóng.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="guide-text">
+        <h3>Video hướng dẫn sử dụng</h3>
+        <ul>
+          <li>
+            <div class="guide-item">
+              <div class="text">
+                🔸 Tư thế chườm theo vùng cơ thể (vai, cổ, lưng, bụng)
+              </div>
+              <div class="thumb">
+                <img src="img/1.jpg" alt="Minh họa tư thế chườm">
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="guide-item">
+              <div class="text">
+                🔸 Kết hợp với bài tập thở để nâng cao hiệu quả thư giãn
+              </div>
+              <div class="thumb">
+                <img src="img/2.jpg" alt="Minh họa bài tập thở">
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="guide-item">
+              <div class="text">
+                🔸 Nuôi cây với lõi gối CaFLOW
+              </div>
+              <div class="thumb">
+                <img src="img/3.jpg" alt="Nuôi cây với lõi gối CaFLOW">
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
+
     <!-- Guide Section -->
 
 
@@ -349,7 +423,7 @@
         <tfoot>
     <tr>
       <td colspan="4" style="text-align:center; padding: 20px;">
-        <strong>Quét mã QR để đặt hàng, mỗi đơn đặt sẽ trích 2% gây quỹ:</strong><br>
+        <strong>Góp 2% giá trị sản phẩm vào quỹ bảo vệ môi trường:</strong><br>
         <img src="img/qr.jpg" alt="QR Code đặt hàng CaFLOW" width="120" height="120">
       </td>
     </tr>
